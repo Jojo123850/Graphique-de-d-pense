@@ -1,12 +1,22 @@
-.essemnle0{
-    max-width: 400px;
+body{
+   width: 800px;
+   height: 1000px;
+   align-items: center;
+  justify-items: center;
+  margin: auto;
+  background-color: hsl(26, 66%, 93%);
+  font-family:"DM sans";
 }
 
-article{
+.enHaut{  
+    display: flex; 
+    justify-content: space-between;
     background-color:  hsl(10, 79%, 65%);
     border: 6px;
     padding: 14px;
     border-color: hsl(10, 79%, 65%) ;
+    margin-top: 40px;
+    border-radius: 20px;
 }
 
 article p{
@@ -15,3 +25,31 @@ article p{
 article h3{
     color:  hsl(26, 66%, 93%);
 }
+
+.lesBarres{
+    background-color:#ffffff;
+    padding: 18px;
+    border-color: black ;
+    margin-top: 20px;
+    border-radius: 20px;
+
+
+}
+
+.hTotal{
+    font-size: 16px;
+    color: hsl(28, 10%, 53%);
+}
+
+.article3{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 400;
+}
+h2, h4{
+    color:  hsl(25, 47%, 15%);
+}
+.art30{
+    margin-top: 20px;
+}
+
